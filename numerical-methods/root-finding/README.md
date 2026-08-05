@@ -1,12 +1,12 @@
 # Root Finding Methods
 
-Implementation of numerical algorithms for finding roots of nonlinear equations.
+Implementation of classical numerical algorithms for finding roots of nonlinear equations and approximating first-order derivatives.
 
 The objective of root-finding methods is to determine the value of `x` that satisfies:
 
-\[
-f(x)=0
-\]
+```text
+f(x) = 0
+```
 
 These algorithms are fundamental tools in computational physics and numerical analysis, where analytical solutions are often unavailable.
 
@@ -16,40 +16,41 @@ These algorithms are fundamental tools in computational physics and numerical an
 
 ### Bisection method
 
-A robust bracketing method based on the Intermediate Value Theorem.
+A robust bracketing algorithm based on the Intermediate Value Theorem.
 
-The method requires an initial interval `[a,b]` such that:
+The method requires an initial interval `[a, b]` such that:
 
-\[
-f(a) \cdot f(b) < 0
-\]
+```text
+f(a) · f(b) < 0
+```
 
-The interval is progressively reduced until the desired tolerance is achieved.
+The interval is repeatedly bisected until the desired tolerance is achieved.
 
 ---
 
 ### Newton-Raphson method
 
-A fast iterative method based on the derivative of the function.
+A fast iterative algorithm based on the first derivative of the function.
 
 The approximation is updated according to:
 
-\[
-x_{n+1}=x_n-\frac{f(x_n)}{f'(x_n)}
-\]
+```text
+x(n+1) = x(n) - f(x(n)) / f'(x(n))
+```
 
-The method provides rapid convergence when the initial guess is sufficiently close to the root.
+When the initial guess is sufficiently close to the root, the method exhibits quadratic convergence.
 
 ---
 
 ### Numerical derivative
 
-Finite difference approximation of the first derivative.
+Finite-difference approximation of the first derivative of a function sampled at equally spaced points.
 
 The implementation uses:
 
-- Forward differences at the boundaries
-- Central differences for internal points
+- Forward differences at the first point.
+- Central differences for interior points.
+- Backward differences at the last point.
 
 ---
 
@@ -58,15 +59,38 @@ The implementation uses:
 ```text
 root-finding/
 │
-├── bisection_method.f90
-├── newton_raphson_method.f90
-├── numerical_derivative.f90
-└── README.md
+├── src/
+│   ├── bisection_method.f90
+│   ├── newton_raphson_method.f90
+│   └── numerical_derivative.f90
+│
+├── examples/
+│   ├── bisection_example.f90
+│   ├── newton_raphson_example.f90
+│   └── numerical_derivative_example.f90
+│
+├── README.md
+└── .gitignore
 ```
 
 ---
 
-## Language and tools
+## Running the examples
+
+Compile an example together with the corresponding numerical method.
+
+For example:
+
+```bash
+gfortran src/bisection_method.f90 examples/bisection_example.f90 -o bisection_example
+./bisection_example
+```
+
+The remaining examples can be compiled in the same way by replacing the corresponding source files.
+
+---
+
+## Language
 
 - Fortran 90
 
