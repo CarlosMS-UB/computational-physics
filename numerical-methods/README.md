@@ -1,72 +1,76 @@
-# Computational Physics
+# Numerical Methods
 
-Collection of numerical methods and computational algorithms implemented in **Fortran 90** during the *Computational Physics* course.
+Collection of classical numerical algorithms implemented in **Fortran 90**.
 
-The purpose of this repository is to provide clear, well-documented implementations of the numerical techniques commonly used in computational physics and scientific computing. Each topic is organized into its own directory and includes example programs demonstrating the use of the implemented algorithms.
-
----
-
-## Topics
-
-### ✅ Numerical Methods
-
-- **Root Finding**
-  - Bisection method
-  - Newton-Raphson method
-  - Numerical derivative
-
-### 🚧 Coming soon
-
-The repository will be progressively expanded with implementations of:
-
-- Numerical integration
-- Interpolation
-- Linear systems
-- Ordinary differential equations (ODEs)
-- Partial differential equations (PDEs)
-- Monte Carlo methods
-- Numerical simulations
-- Fourier analysis
-- Additional numerical algorithms
+This directory contains implementations of fundamental numerical methods frequently used in computational physics, scientific computing, and engineering applications. Each topic is organized into its own subdirectory and includes documented source code together with example programs.
 
 ---
 
-## Repository structure
+## Available topics
+
+### ✅ Root Finding
+
+Algorithms for solving nonlinear equations.
+
+Implemented methods:
+
+- Bisection method
+- Newton-Raphson method
+- Numerical derivative
+
+Directory:
 
 ```text
-computational-physics/
-│
-├── numerical-methods/
-│   ├── root-finding/
-│   ├── integration/
-│   ├── interpolation/
-│   └── ...
-│
-├── README.md
-├── LICENSE
-└── .gitignore
+root-finding/
 ```
 
 ---
 
-## Current contents
+### 🚧 Coming soon
 
-| Topic | Status |
-|--------|:------:|
-| Root Finding | ✅ |
-| Numerical Integration | 🚧 |
-| Interpolation | 🚧 |
-| Linear Systems | 🚧 |
-| ODE Solvers | 🚧 |
-| PDE Solvers | 🚧 |
-| Monte Carlo Methods | 🚧 |
-| Numerical Simulations | 🚧 |
+Additional numerical methods will be incorporated progressively, including:
+
+- Numerical integration
+- Interpolation
+- Linear systems
+- Eigenvalue problems
+- Ordinary differential equations (ODEs)
+- Partial differential equations (PDEs)
+- Monte Carlo methods
+- Fourier analysis
+- Optimization algorithms
+
+---
+
+## Directory structure
+
+```text
+numerical-methods/
+│
+├── root-finding/
+│   ├── src/
+│   ├── examples/
+│   └── README.md
+│
+├── integration/
+├── interpolation/
+├── linear-systems/
+├── ode-solvers/
+├── pde-solvers/
+└── ...
+```
 
 ---
 
 ## Language
 
 - Fortran 90
+
+---
+
+## Related repository
+
+This directory is part of the **Computational Physics** repository.
 
 ---
 
