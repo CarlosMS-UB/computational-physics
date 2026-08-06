@@ -90,7 +90,7 @@ Compile an example together with the corresponding numerical method.
 For example:
 
 ```bash
-gfortran src/trapezoidal_rule.f90 examples/trapezoidal_example.f90 -o trapezoidal_example
+gfortran src/trapezoidal-method.f90 examples/trapezoidal_example.f90 -o trapezoidal_example
 ./trapezoidal_example
 ```
 
