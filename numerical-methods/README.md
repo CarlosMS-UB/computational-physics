@@ -26,11 +26,27 @@ root-finding/
 
 ---
 
+### ✅ Numerical Integration
+
+Algorithms for approximating definite integrals of continuous functions.
+
+Implemented methods:
+
+- Composite trapezoidal rule
+- Composite Simpson's rule
+
+Directory:
+
+```text
+integration/
+```
+
+---
+
 ### 🚧 Coming soon
 
 Additional numerical methods will be incorporated progressively, including:
 
-- Numerical integration
 - Interpolation
 - Linear systems
 - Eigenvalue problems
@@ -53,6 +69,10 @@ numerical-methods/
 │   └── README.md
 │
 ├── integration/
+│   ├── src/
+│   ├── examples/
+│   └── README.md
+│
 ├── interpolation/
 ├── linear-systems/
 ├── ode-solvers/

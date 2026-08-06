@@ -20,7 +20,7 @@
 !
 ! In order to use this example, you should type in the terminal:
 !
-! $ gfortran src/simpson_rule.f90 examples/simpson_example.f90 -o simpson_example
+! $ gfortran src/simpson-method.f90 examples/simpson_example.f90 -o simpson_example
 ! $ ./simpson_example
 !
 !=======================================================================

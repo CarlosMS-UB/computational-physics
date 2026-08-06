@@ -19,9 +19,12 @@ Current topics:
   - Newton-Raphson method
   - Numerical derivative
 
+- **Numerical Integration**
+  - Composite trapezoidal rule
+  - Composite Simpson's rule
+
 Planned topics:
 
-- Numerical integration
 - Interpolation
 - Linear systems
 - Eigenvalue problems
@@ -47,6 +50,10 @@ computational-physics/
 │   │   └── README.md
 │   │
 │   ├── integration/
+│   │   ├── src/
+│   │   ├── examples/
+│   │   └── README.md
+│   │
 │   ├── interpolation/
 │   ├── linear-systems/
 │   ├── ode-solvers/
@@ -65,7 +72,7 @@ computational-physics/
 |---------|:------:|
 | Numerical Methods | 🚧 |
 | ├── Root Finding | ✅ |
-| ├── Numerical Integration | 🚧 |
+| ├── Numerical Integration | ✅ |
 | ├── Interpolation | 🚧 |
 | ├── Linear Systems | 🚧 |
 | ├── Eigenvalue Problems | 🚧 |

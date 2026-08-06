@@ -20,7 +20,7 @@
 !
 ! In order to use this example, you should type in the terminal:
 !
-! $ gfortran src/trapezoidal_rule.f90 examples/trapezoidal_example.f90 -o trapezoidal_example
+! $ gfortran src/trapezoidal-method.f90 examples/trapezoidal_example.f90 -o trapezoidal_example
 ! $ ./trapezoidal_example
 !
 !=======================================================================
