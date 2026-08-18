@@ -70,15 +70,14 @@ making it considerably more accurate than the trapezoidal rule for smooth functi
 integration/
 │
 ├── src/
-│   ├── trapezoidal_rule.f90
-│   └── simpson_rule.f90
+│   ├── simpson-method.f90
+│   └── trapezoidal-method.f90
 │
 ├── examples/
-│   ├── trapezoidal_example.f90
-│   └── simpson_example.f90
+│   ├── simpson_example.f90
+│   └── trapezoidal_example.f90
 │
 ├── README.md
-└── .gitignore
 ```
 
 ---
