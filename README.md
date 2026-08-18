@@ -2,7 +2,7 @@
 
 Collection of numerical methods and computational algorithms implemented in **Fortran 90** as part of the *Computational Physics* course.
 
-This repository aims to provide clear, well-documented implementations of the numerical techniques commonly used in computational physics and scientific computing. The project is organized by topic, with each module containing the source code, example programs, and documentation necessary to understand and reproduce the implemented algorithms.
+This repository aims to provide clear, well-documented implementations of numerical techniques commonly used in computational physics and scientific computing. The project is organized by topic, with each module containing source code, example programs, and documentation necessary to understand and reproduce the implemented algorithms.
 
 ---
 
@@ -14,25 +14,32 @@ Collection of classical algorithms for numerical computation.
 
 Current topics:
 
-- **Root Finding**
-  - Bisection method
-  - Newton-Raphson method
-  - Numerical derivative
+* **Root Finding**
 
-- **Numerical Integration**
-  - Composite trapezoidal rule
-  - Composite Simpson's rule
+  * Bisection method
+  * Newton-Raphson method
+  * Numerical derivative
+
+* **Numerical Integration**
+
+  * Composite trapezoidal rule
+  * Composite Simpson's rule
+
+* **Random Numbers**
+
+  * Histogram construction
+  * Acceptance-rejection method
+  * Gaussian random number generation using the Box-Muller transform
 
 Planned topics:
 
-- Interpolation
-- Linear systems
-- Eigenvalue problems
-- Ordinary differential equations (ODEs)
-- Partial differential equations (PDEs)
-- Monte Carlo methods
-- Fourier analysis
-- Optimization algorithms
+* Linear systems
+* Eigenvalue problems
+* Ordinary differential equations (ODEs)
+* Partial differential equations (PDEs)
+* Monte Carlo methods
+* Fourier analysis
+* Optimization algorithms
 
 ---
 
@@ -54,9 +61,14 @@ computational-physics/
 │   │   ├── examples/
 │   │   └── README.md
 │   │
-│   ├── interpolation/
+│   ├── random-numbers/
+│   │   ├── src/
+│   │   ├── examples/
+│   │   └── README.md
+│   │
 │   ├── linear-systems/
 │   ├── ode-solvers/
+│   ├── pde-solvers/
 │   └── ...
 │
 ├── README.md
@@ -68,25 +80,25 @@ computational-physics/
 
 ## Current progress
 
-| Module | Status |
-|---------|:------:|
-| Numerical Methods | 🚧 |
-| ├── Root Finding | ✅ |
-| ├── Numerical Integration | ✅ |
-| ├── Interpolation | 🚧 |
-| ├── Linear Systems | 🚧 |
-| ├── Eigenvalue Problems | 🚧 |
-| ├── ODE Solvers | 🚧 |
-| ├── PDE Solvers | 🚧 |
-| ├── Monte Carlo Methods | 🚧 |
-| ├── Fourier Analysis | 🚧 |
-| └── Optimization | 🚧 |
+| Module                    | Status |
+| ------------------------- | :----: |
+| Numerical Methods         |   🚧   |
+| ├── Root Finding          |    ✅   |
+| ├── Numerical Integration |    ✅   |
+| ├── Random Numbers        |    ✅   |
+| ├── Linear Systems        |   🚧   |
+| ├── Eigenvalue Problems   |   🚧   |
+| ├── ODE Solvers           |   🚧   |
+| ├── PDE Solvers           |   🚧   |
+| ├── Monte Carlo Methods   |   🚧   |
+| ├── Fourier Analysis      |   🚧   |
+| └── Optimization          |   🚧   |
 
 ---
 
 ## Language
 
-- Fortran 90
+* Fortran 90
 
 ---
 

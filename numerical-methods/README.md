@@ -14,9 +14,9 @@ Algorithms for solving nonlinear equations.
 
 Implemented methods:
 
-- Bisection method
-- Newton-Raphson method
-- Numerical derivative
+* Bisection method
+* Newton-Raphson method
+* Numerical derivative
 
 Directory:
 
@@ -32,8 +32,8 @@ Algorithms for approximating definite integrals of continuous functions.
 
 Implemented methods:
 
-- Composite trapezoidal rule
-- Composite Simpson's rule
+* Composite trapezoidal rule
+* Composite Simpson's rule
 
 Directory:
 
@@ -43,18 +43,35 @@ integration/
 
 ---
 
+### ✅ Random Numbers
+
+Algorithms for generating and analyzing random numbers and probability distributions.
+
+Implemented methods:
+
+* Histogram construction
+* Acceptance-rejection method
+* Gaussian random number generation using the Box-Muller transform
+
+Directory:
+
+```text
+random-numbers/
+```
+
+---
+
 ### 🚧 Coming soon
 
 Additional numerical methods will be incorporated progressively, including:
 
-- Interpolation
-- Linear systems
-- Eigenvalue problems
-- Ordinary differential equations (ODEs)
-- Partial differential equations (PDEs)
-- Monte Carlo methods
-- Fourier analysis
-- Optimization algorithms
+* Linear systems
+* Eigenvalue problems
+* Ordinary differential equations (ODEs)
+* Partial differential equations (PDEs)
+* Monte Carlo methods
+* Fourier analysis
+* Optimization algorithms
 
 ---
 
@@ -73,7 +90,11 @@ numerical-methods/
 │   ├── examples/
 │   └── README.md
 │
-├── interpolation/
+├── random-numbers/
+│   ├── src/
+│   ├── examples/
+│   └── README.md
+│
 ├── linear-systems/
 ├── ode-solvers/
 ├── pde-solvers/
@@ -84,7 +105,7 @@ numerical-methods/
 
 ## Language
 
-- Fortran 90
+* Fortran 90
 
 ---
 
