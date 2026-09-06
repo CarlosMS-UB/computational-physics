@@ -71,11 +71,15 @@ integration/
 │
 ├── src/
 │   ├── simpson-method.f90
-│   └── trapezoidal-method.f90
+│   ├── trapezoidal-method.f90
+│   ├── monte_carlo.f90
+│   └── monte_carlo_multivariable.f90
 │
 ├── examples/
 │   ├── simpson_example.f90
-│   └── trapezoidal_example.f90
+│   ├── trapezoidal_example.f90
+│   ├── monte-carlo-example.f90
+│   └── monte-carlo-multivariable-example.f90
 │
 ├── README.md
 ```
