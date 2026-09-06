@@ -34,6 +34,8 @@ Implemented methods:
 
 * Composite trapezoidal rule
 * Composite Simpson's rule
+* Monte Carlo integration
+* Multivariate Monte Carlo integration
 
 Directory:
 
@@ -69,7 +71,6 @@ Additional numerical methods will be incorporated progressively, including:
 * Eigenvalue problems
 * Ordinary differential equations (ODEs)
 * Partial differential equations (PDEs)
-* Monte Carlo methods
 * Fourier analysis
 * Optimization algorithms
 

@@ -24,6 +24,8 @@ Current topics:
 
   * Composite trapezoidal rule
   * Composite Simpson's rule
+  * Monte Carlo integration
+  * Multivariate Monte Carlo integration
 
 * **Random Numbers**
 
@@ -37,7 +39,6 @@ Planned topics:
 * Eigenvalue problems
 * Ordinary differential equations (ODEs)
 * Partial differential equations (PDEs)
-* Monte Carlo methods
 * Fourier analysis
 * Optimization algorithms
 
@@ -67,6 +68,10 @@ computational-physics/
 │   │   └── README.md
 │   │
 │   ├── linear-systems/
+│   │   ├── src/
+│   │   ├── examples/
+│   │   └── README.md
+│   │
 │   ├── ode-solvers/
 │   ├── pde-solvers/
 │   └── ...
@@ -90,7 +95,6 @@ computational-physics/
 | ├── Eigenvalue Problems   |   🚧   |
 | ├── ODE Solvers           |   🚧   |
 | ├── PDE Solvers           |   🚧   |
-| ├── Monte Carlo Methods   |   🚧   |
 | ├── Fourier Analysis      |   🚧   |
 | └── Optimization          |   🚧   |
 
