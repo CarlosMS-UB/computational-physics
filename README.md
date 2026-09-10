@@ -33,14 +33,15 @@ Current topics:
   * Acceptance-rejection method
   * Gaussian random number generation using the Box-Muller transform
 
+* **Ordinary differential equations (ODEs)**
+
+  * Euler
+  * Improved Euler
+
 Planned topics:
 
 * Linear systems
-* Eigenvalue problems
-* Ordinary differential equations (ODEs)
 * Partial differential equations (PDEs)
-* Fourier analysis
-* Optimization algorithms
 
 ---
 
@@ -73,6 +74,10 @@ computational-physics/
 │   │   └── README.md
 │   │
 │   ├── ode-solvers/
+│   │   ├── src/
+│   │   ├── examples/
+│   │   └── README.md
+│   │
 │   ├── pde-solvers/
 │   └── ...
 │

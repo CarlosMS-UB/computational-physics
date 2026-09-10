@@ -63,16 +63,29 @@ random-numbers/
 
 ---
 
+### ✅ ODE solvers
+
+Algorithms for solving ordinary differential equations by using numerical methods.
+
+Implemented methods:
+
+* Euler
+* Improved euler
+
+Directory:
+
+```text
+ode-solvers/
+```
+
+---
+
 ### 🚧 Coming soon
 
 Additional numerical methods will be incorporated progressively, including:
 
 * Linear systems
-* Eigenvalue problems
-* Ordinary differential equations (ODEs)
 * Partial differential equations (PDEs)
-* Fourier analysis
-* Optimization algorithms
 
 ---
 
